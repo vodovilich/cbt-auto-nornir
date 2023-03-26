@@ -1,0 +1,43 @@
+---
+"model": "cisco 4431"
+type: Router
+port_num: 4
+SMARTnet: true
+"Licenses_v1": ["ipbase", "hseck"]
+"Licenses_v2": 
+ - "ipbase"
+ - "hseck"
+"wifi_clients_v1": [["pidor", -59, "aa:bb:cc:dd:ee:ff"],["peder", -70, "11:22:33:44:55:66"]]
+"wifi_clients_v2": 
+ -
+  - pidor
+  - -59
+  - aa:bb:cc:dd:ee:ff
+ -
+  - peder
+  - -70
+  - "11:22:33:44:55:66"
+
+list_of_net_hw_v1: { BELGRADE: [bel-gw01, bel-sw01, bel-wlc01], KRAKOW: [kra-gw01, kra-sw01, kra-wlc01]}
+list_of_net_hw_v2:
+  BELGRADE:
+    - bel-gw01
+    - bel-sw01
+    - bel-wlc01
+  KRAKOW:
+    - kra-gw01
+    - kra-sw01
+    - kra-wlc01
+
+
+
+#--- - beginning
+#tabulation is prohibited
+#... - ending, not required
+#key CAN be quoted
+#spaces are allowed in values (some software cannot process spaces in keys) 
+#value in single quotes '' processes special symbols ($^\|) as usuall ones
+
+
+
+...

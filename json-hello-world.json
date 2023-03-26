@@ -1,0 +1,25 @@
+{
+    "model": "cisco ISR4431",
+    "type": "Router",
+    "port_num": 4,
+    "SMARTnet": true,
+    "Licenses": ["ipbase", "hseck"],
+    
+    
+    
+    "wifi_clients": [
+            ["pidor", -59, "aa:bb:cc:dd:ee:ff"],
+            ["peder", -70, "11:22:33:44:55:66"]
+    ],
+   
+   
+   
+   
+
+   
+ 
+    "list_of_net_hw": {
+        "BELGRADE": ["bel-gw01", "bel-sw01", "bel-wlc01"],
+        "KRAKOW": ["kra-gw01", "kra-sw01", "kra-wlc01"]
+    }
+}

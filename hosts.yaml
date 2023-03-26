@@ -1,0 +1,17 @@
+---
+
+R1:
+    username: "gandalf"
+    password: "grey"
+    platform: "ios"
+    hostname: "192.168.100.24"
+    groups:
+        - cisco_group
+
+R2:
+    username: "gandalf"
+    password: "grey"
+    platform: "ios"
+    hostname: "192.168.100.27"
+    groups:
+        - cisco_group
