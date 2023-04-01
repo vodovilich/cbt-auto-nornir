@@ -1,5 +1,20 @@
 ---
 
+#PLATFORM, USERNAME, PASSWORD and HOSTNAME are expected keywords
+#to identify a custom one, DATA keyword should be used
+#
+#
+
+
 cisco_group:
     username: "gandalf"
     password: "grey"
+
+euro_group:
+    ntp_server: "4.4.4.4"
+    data:
+        ntp_server: "4.4.4.4"
+
+usa_group:
+    data:
+        ntp_server: "8.8.8.8"
