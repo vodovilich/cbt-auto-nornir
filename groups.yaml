@@ -2,7 +2,7 @@
 
 #PLATFORM, USERNAME, PASSWORD and HOSTNAME are expected keywords
 #to identify a custom one, DATA keyword should be used
-#
+#yaml files priority: HOSTS -> GROUPS -> DEFAULTS 
 #
 
 
