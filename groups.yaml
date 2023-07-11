@@ -11,9 +11,9 @@ cisco_group:
     password: "grey"
 
 euro_group:
-    ntp_server: "4.4.4.4"
+    ntp_server: "5.6.7.8"
     data:
-        ntp_server: "4.4.4.4"
+        ntp_server: "5.6.7.8"
 
 usa_group:
     data:

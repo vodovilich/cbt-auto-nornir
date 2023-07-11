@@ -5,6 +5,6 @@ from nornir_utils.plugins.functions import print_result
 nr = InitNornir(config_file="config.yaml")
 
 def show_command_test(task):
-    task.run(task=send_commands_from_file, file="rb04_commands_list.txt")
+    task.run(task=send_commands_from_file, file='rb04_commands_list.txt')
 results = nr.run(task=show_command_test)
 print_result(results)
