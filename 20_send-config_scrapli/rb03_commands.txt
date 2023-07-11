@@ -1,0 +1,2 @@
+ntp server 9.8.7.6
+logging buffered 65432
