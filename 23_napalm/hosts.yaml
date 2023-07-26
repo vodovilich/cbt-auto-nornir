@@ -11,3 +11,8 @@ R2:
     groups:
         - cisco_group
         - euro_group
+        
+R3:
+    hostname: "192.168.100.5"
+    groups:
+        - cisco_group

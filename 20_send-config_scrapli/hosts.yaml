@@ -1,13 +1,13 @@
 ---
 
 R1:
-    hostname: "192.168.100.12"
+    hostname: "192.168.100.7"
     groups:
         - cisco_group
         - usa_group
 
 R2:
-    hostname: "192.168.100.13"
+    hostname: "192.168.100.6"
     groups:
         - cisco_group
         - euro_group
