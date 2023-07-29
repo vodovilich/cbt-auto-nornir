@@ -1,3 +1,4 @@
+import sys
 import getpass
 from nornir import InitNornir
 from nornir_scrapli.tasks import send_command
@@ -24,6 +25,7 @@ iol_01_pass = getpass.getpass(prompt="\nEnter iol-01 HOST password: ")
 nr.inventory.groups["usa_group"].password = usa_pass
 nr.inventory.groups["euro_group"].password = euro_pass
 nr.inventory.hosts["iol-01"].password = iol_01_pass
+nr.inventory.defaults.username = sys.argv[1]
 
 def credential_test(task):
     task.run(task=send_command, command="show ip int br")
