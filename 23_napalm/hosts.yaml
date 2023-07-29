@@ -1,18 +1,18 @@
 ---
     
-R1:
+iol-01:
     hostname: "192.168.100.7"
     groups:
         - cisco_group
         - usa_group
 
-R2:
+iol-02:
     hostname: "192.168.100.6"
     groups:
         - cisco_group
         - euro_group
         
-R3:
+csr-01:
     hostname: "192.168.100.5"
     groups:
         - cisco_group
