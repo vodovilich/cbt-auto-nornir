@@ -22,8 +22,6 @@ csr-01
 default.yaml
     gandalf grey
 """
-
-
 #SHOWING WHAT IS IN defaults.yaml
 print("\nDEFAULT ACCORDING TO DEFAULT.YAML")
 
