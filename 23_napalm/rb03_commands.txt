@@ -1,2 +1,1 @@
-ntp server 2.3.4.5
-logging buffered 65432
+username bilbo priv 15 sec baggins
