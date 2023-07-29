@@ -71,3 +71,26 @@ def credential_test(task):
     
 results = nr.run(task=credential_test)
 print_result(results)
+
+
+"""
+DEFAULT ACCORDING TO DEFAULT.YAML
+* csr-01 *      gandalf    idle                 00:00:00 192.168.100.4
+* iol-01 *      gandalf    idle                 00:00:00 192.168.100.4
+* iol-02 *      gandalf    idle                 00:00:00 192.168.100.4
+
+MODIFYING DEFAULT.YAML SETTINGS:
+Password: 
+csr-01 *     bilbo      idle                 00:00:00 192.168.100.4
+iol-01 *     bilbo      idle                 00:00:00 192.168.100.4
+iol-02 *     bilbo      idle                 00:00:00 192.168.100.4
+
+
+MODIFYING DEFAULT.YAML SETTINGS PER GROUP/HOST:
+Enter USA GROUP password: 
+Enter EURO GROUP password: 
+Enter iol-01 HOST password: 
+csr-01 *     csruser    idle                 00:00:00 192.168.100.4
+iol-01 *     ususer     idle                 00:00:00 192.168.100.4
+iol-02 *     euser      idle                 00:00:00 192.168.100.4
+"""
